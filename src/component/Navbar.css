@@ -1,0 +1,66 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #800080;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  /* background: linear-gradient(to right, purple,violet );  */
+  border-radius: 0;
+  background: linear-gradient(to right, rgb(53, 2, 53),rgb(139, 113, 139) );
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.nav-search {
+  display: flex;
+  flex: 0 1 40%; /
+}
+
+.nav-search input {
+  width: 100%;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.nav-search button {
+  padding: 8px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* .signup-btn { */
+  background-color: white;
+  color: #800080;
+  padding: 6px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+

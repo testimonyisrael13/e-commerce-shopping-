@@ -1,0 +1,64 @@
+.auth-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.auth-sidebar {
+  flex: 1;
+  background: url('../assets/allaccess.jpg') no-repeat center center/cover;
+  display: none; 
+}
+
+@media (min-width: 768px) {
+  .auth-sidebar { display: block; } 
+}
+
+.form-section {
+  flex: 1;
+  background-color: #0c0c0c; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(to right, rgb(22, 9, 22),rgb(139, 113, 139) ); 
+  
+}
+
+.form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.auth-btn {
+  width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.auth-overlay {
+  padding: 60px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0,0,0,0.4);
+  height: 80%;
+}

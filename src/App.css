@@ -1,0 +1,47 @@
+body {
+     background-color: rgb(251, 242, 230);
+    /* background-color: rgb(79, 77, 77); */
+}
+.home-header {
+    background-color:  rgb(202, 169, 244);
+    border-radius: 0;
+    padding: 10px 20px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    /* background: linear-gradient(to right, purple,violet );  */
+    /* background: linear-gradient(to right, rgb(22, 9, 22),rgb(139, 113, 139) ); */
+    background: linear-gradient(to right, rgb(53, 2, 53),rgb(139, 113, 139) );
+    
+} 
+.home-header h1{
+    margin: 0;
+    font-size: 28px;
+    color: whitesmoke;
+}
+.cartimage {
+    width: 120px;
+    height: 65px;
+    margin-bottom: auto;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-bar input{
+    width: 50%;
+    border: none;
+    padding: 8px 15px;
+}
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+main, .home, .cart{
+    padding-top: 0;
+}

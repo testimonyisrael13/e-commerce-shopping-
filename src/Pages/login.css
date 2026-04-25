@@ -1,0 +1,42 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    min-height: 100px;
+    background-color: rgb(202, 169, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(22, 9, 22),rgb(139, 113, 139) ); 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-card {
+     background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}.loginbtn {
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginbtn :hover {
+    background: #333;
+}
+.loginfooter{
+
+}
+.auth-contain{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  
+}

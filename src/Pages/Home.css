@@ -1,0 +1,234 @@
+.home {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  background-color: purple;
+  border-radius: 5px;
+  background: linear-gradient(to right, purple,violet ); 
+}
+.productbtn{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: large;
+  background-color: purple;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to right, purple,violet ); 
+  color: white;
+  margin-right: 10px;
+  /* background: linear-gradient(to right, rgb(53, 2, 53),rgb(237, 234, 237) ); */
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  
+}
+
+.card {
+  background: rgb(255, 254, 254);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card button {
+  margin-top: 5px;
+  padding: 8px 12px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #333;
+}
+ .main-header {
+  display: flex;
+  grid-template-columns: 150px 200px 1fr 200px;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 50px;
+  background: linear-gradient(to right, purple,violet ) ;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+
+}
+.logo {
+  font-weight: bold;
+}
+
+.category-btn {
+  background: #ccc;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.hero-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px 30px;
+}
+.hero-left {
+  background-image: url('../assets/holding.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+  color: #fefbfb;
+  font-family: cursive;
+}
+.hero-left h3 {
+  color: #fff0f0;
+  font-family: cursive; 
+  font-size: medium;  
+}
+
+.hero-left button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.hero-right {
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../assets/cartyy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+.hero-right button {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.categories {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 30px;
+}
+
+.category-card {
+  padding: 40px;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.red {
+  
+  background-image: url('../assets/baggie.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ color: white;
+  padding: 40px;
+  border-radius: 10px;
+   }
+.blue { 
+  background-image: url('../assets/shuu.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+ }
+.purple {
+  background-image: url('../assets/golds.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+ }
+ .header-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.cart-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-icon-container {
+  position: relative;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 11px;
+  border-radius: 50%;
+  padding: 2px 5px;
+  min-width: 14px;
+  text-align: center;
+}
+.cart-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.1;
+}
+.cart-label {
+  font-weight: bold;
+}
+.cart-price {
+  opacity: 0.9;
+}
