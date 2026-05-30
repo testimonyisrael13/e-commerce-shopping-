@@ -40,3 +40,26 @@ form {
   width: 100%;
   
 }
+.password-field {
+  position: relative;
+  width: 100%;
+}
+
+.password-field input {
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.toggle-password:hover {
+  opacity: 0.8;
+}

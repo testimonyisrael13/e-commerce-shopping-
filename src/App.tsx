@@ -9,15 +9,7 @@ import { CartProvider } from './Pages/CartContext'
 const App = () => {
   return (
     <CartProvider>
-    <><><div className="home-header">
-      <div>
-        <img src={CartImg} alt="cart" className="cartimage" />
-        <h1>SHOP-INN</h1>
-      </div>
-    </div>
-      <div>
-
-      </div>
+    <><>
     
       <Navbar />
       <AppRouter /></>

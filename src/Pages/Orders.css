@@ -1,0 +1,89 @@
+.orders-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.orders-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  border-bottom: 2px solid purple;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.order-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+/* Header section of the card */
+.order-header {
+  background: #f8f9fa;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.order-info-group {
+  display: flex;
+  gap: 40px;
+}
+
+.info-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #777;
+  display: block;
+}
+
+.info-value {
+  font-weight: 600;
+  color: #333;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  background: #e1f5fe;
+  color: #0288d1; /* Blue for processing */
+}
+
+/* Items section */
+.order-items {
+  padding: 20px 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item-row img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.item-details p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}

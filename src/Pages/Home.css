@@ -2,7 +2,7 @@
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-}
+  }
 .home h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -15,10 +15,10 @@
   text-align: center;
   margin-bottom: 20px;
   font-size: large;
-  background-color: purple;
+  background-color:rgb(112, 109, 109);
   border-radius: 5px;
   cursor: pointer;
-  background: linear-gradient(to right, purple,violet ); 
+  /* background: linear-gradient(to right, purple,violet );  */
   color: white;
   margin-right: 10px;
   /* background: linear-gradient(to right, rgb(53, 2, 53),rgb(237, 234, 237) ); */
@@ -27,6 +27,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   
 }
 
@@ -40,6 +43,7 @@
 .card img {
   width: 100%;
   border-radius: 10px;
+  height: auto;
 }
 .card button {
   margin-top: 5px;
@@ -231,4 +235,30 @@
 }
 .cart-price {
   opacity: 0.9;
+}
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+  width: 800px;
+}
+
+.search-bar input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.no-products {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
 }
