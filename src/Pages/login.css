@@ -62,4 +62,19 @@ form {
 
 .toggle-password:hover {
   opacity: 0.8;
+}@media screen and (max-width:768px){
+
+  .auth-contain {
+    flex-direction: column;
+  }
+
+  .auth-sidebar {
+    display: none;
+  }
+
+  .login-container,
+  .signup-container {
+    width: 100%;
+  }
+
 }

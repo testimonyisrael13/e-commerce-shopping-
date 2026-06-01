@@ -120,3 +120,20 @@
   font-size: 13px;
   font-weight: 600;
 }
+@media screen and (max-width:768px){
+
+  .product-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .categories-bar {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+}
